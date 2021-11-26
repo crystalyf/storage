@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_save_image_to_public"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储图像文件至公共目录（共享存储目录）" />
+
+    <Button
+        android:id="@+id/btn_file_to_public_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储文件至公共目录（共享存储目录）" />
+
+    <Button
+        android:id="@+id/btn_save_file_to_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储文件至私有目录" />
+
+    <Button
+        android:id="@+id/btn_save_image_to_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存储图像文件至私有目录" />
+
+    <Button
+        android:id="@+id/btn_get_local_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取指定的私有存储路径的所有文件" />
+
+</LinearLayout>
